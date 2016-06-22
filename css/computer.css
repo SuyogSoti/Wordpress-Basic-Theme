@@ -8,7 +8,10 @@ body{
   min-height: auto;
   font-family: Arial, Tahoma, sans-serif;
 }
-div.nav{
+div.mobile-nav{
+    display: none;
+}
+div.computer-nav, div.mobile-nav{
   width: 100%;
   height: 64px;
   font-size: 20px;
@@ -18,19 +21,19 @@ div.nav{
   background-color: rgb(0, 195, 189);
   z-index: 1;
 }
-div.nav ul{
+div.computer-nav ul{
   padding-left: 0;
   margin: 0 auto;
   width: auto;
 }
-div.nav ul li{
+div.computer-nav ul li{
   display: inline-block;
   color: white;
   width: auto;
   padding-left: 50px;
   padding-right: 50px;
 }
-div.nav ul li:hover{
+div.computer-nav ul li:hover, div.mobile-nav ul li:hover{
   background-color: white;
   color: rgb(0, 195, 189);
   cursor: pointer;
@@ -40,7 +43,7 @@ div#home_slide{
   height: auto;
   background-color: rgb(228, 226, 228);
   margin: 90px auto;
-  margin-bottom: -20px;
+  margin-bottom: -50px;
   box-shadow: 2px 2px 5px rgb(120, 120, 120);
 }
 div.wrapper{

@@ -1,13 +1,51 @@
 @media screen and (max-width: 1200px){
   body{
-    padding-right: 20px;
-    padding-left: 20px;
-    width: auto;
+    /*padding-right: 20px;
+    padding-left: 20px;*/
+    width: 100%;
+  }
+  div.computer-nav{
+      display: none;
+  }
+  div.mobile-nav{
+      display: block;
+      margin-left: 0px;
+      padding-right: 0px;
+      padding-top: 10px;
+      height: auto;
+      min-height: 70px;
+      padding-bottom: 10px;
+      position: relative;
+      margin-top: 0px;
+      width: 100%;
+  }
+  div.mobile-nav img{
+      width: inherit;
+      height: inherit;
   }
   div#home_slide{
-    /*display: none;*/
+      margin-top: 125px;
   }
-  div.nav{
-    display: none;
+  div.mobile-nav div{
+      float: right;
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+  }
+  div.mobile-nav ul{
+      display: none;
+      margin-top: 60px;
+      margin-left: 0px;
+      padding: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+  }
+  div.mobile-nav ul li{
+      list-style-type: none;
+      color: white;
+  }
+  div.wrapper{
+      margin-left: 20px;
+      margin-right: 20px;
   }
 }
