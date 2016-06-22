@@ -6,6 +6,7 @@
       <?php the_post(); ?>
       <?php ListPost(); ?>
     <?php endwhile; ?>
+    <?php wp_reset_postdata(); ?>
   </div>
 <?php else: ?>
   <?php header(esc_url(home_url('/wp-content/themes/Wordpress-Basic-Theme/404.php'))); ?>

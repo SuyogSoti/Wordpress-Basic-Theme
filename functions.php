@@ -1,6 +1,5 @@
 <?php
-
-
+// to just list all of posts that is searched for
 function ListPost() { ?>
   <a href="<?php echo get_permalink(); ?>">
     <div class="index_most_recent">
