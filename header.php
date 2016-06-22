@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <?php wp_head(); ?>
   <link rel="stylesheet" href="<?php echo esc_url( home_url( '/wp-content/themes/Wordpress-Basic-Theme/css/computer.css' ) ); ?>" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="<?php echo esc_url( home_url( '/wp-content/themes/Wordpress-Basic-Theme/css/mobile.css' ) ); ?>" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="<?php echo esc_url( home_url( '/wp-content/themes/Wordpress-Basic-Theme/style.css' ) ); ?>" media="screen" title="no title" charset="utf-8">
 </head>
 <body>
