@@ -3,17 +3,8 @@
   <div class="slideshow" id="home_slide"></div>
   <div class="wrapper" id="home_wrapper">
     <?php while ( have_posts() ) : ?>
-      <a href="<?php echo get_permalink(); ?>">
-        <div class="index_most_recent">
-          <?php the_post(); ?>
-          <h5><?php the_title(); ?></h5>
-          <span class="date"><?php the_date(); ?></span>
-          <?php the_excerpt(); ?>
-          <div class="author">
-            By: <?php the_author(); ?>
-          </div>
-        </div>
-      </a>
+      <?php the_post(); ?>
+      <?php ListPost(); ?>
     <?php endwhile; ?>
   </div>
 <?php else: ?>
