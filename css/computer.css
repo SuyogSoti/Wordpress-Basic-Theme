@@ -70,15 +70,28 @@
   div.whole_posts{
     padding: 20px;
   }
-  div.whole_posts span.date{
+  span.date{
     float: right;
   }
   div.whole_posts div.author{
-    padding: 5px;
     border-bottom: 1px solid rgb(0, 195, 189);
+  }
+  div.author{
+    padding: 5px;
   }
   div.whole_posts div.post-thumbnail{
     padding-right: 20px;
     padding-bottom: 20px;
+  }
+  div.index_most_recent{
+    padding: 20px;
+    border-bottom: 1px solid rgb(0, 195, 189);
+  }
+  div.index_most_recent:hover {
+    background-color: rgb(197, 231, 247);
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
   }
 }
