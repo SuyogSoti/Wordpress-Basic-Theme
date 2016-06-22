@@ -5,7 +5,7 @@
     width: auto;
   }
   div#home_slide{
-    display: none;
+    /*display: none;*/
   }
   div.nav{
     display: none;

@@ -16,6 +16,7 @@ div.nav{
   position: fixed;
   margin: -90px auto;
   background-color: rgb(0, 195, 189);
+  z-index: 1;
 }
 div.nav ul{
   padding-left: 0;
@@ -35,11 +36,11 @@ div.nav ul li:hover{
   cursor: pointer;
 }
 div#home_slide{
-  width: 1000px;
-  height: 500px;
+  max-width: 1000px;
+  height: auto;
   background-color: rgb(228, 226, 228);
   margin: 90px auto;
-  margin-bottom: 20px;
+  margin-bottom: -20px;
   box-shadow: 2px 2px 5px rgb(120, 120, 120);
 }
 div.wrapper{

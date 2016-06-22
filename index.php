@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <?php if (is_home()): ?>
-  <div class="slideshow" id="home_slide"></div>
+  <div class="slideshow" id="home_slide"><?php echo do_shortcode('[pjc_slideshow slide_type="home-page"]'); ?></div>
   <div class="wrapper" id="home_wrapper">
     <?php while ( have_posts() ) : ?>
       <?php the_post(); ?>
