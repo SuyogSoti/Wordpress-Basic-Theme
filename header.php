@@ -7,9 +7,10 @@
   <link rel="stylesheet" href="<?php echo esc_url( home_url( '/wp-content/themes/Wordpress-Basic-Theme/style.css' ) ); ?>" media="screen" title="no title" charset="utf-8">
   <script type="text/javascript" src="<?php echo esc_url(home_url('/wp-content/themes/Wordpress-Basic-Theme/js/jquery-3.0.0.min.js')) ?>"></script>
   <script type="text/javascript" src="<?php echo esc_url(home_url('/wp-content/themes/Wordpress-Basic-Theme/js/script.js')) ?>"></script>
-  <?php wp_head(); ?>
+  <title><?php echo ucfirst(basename($_SERVER['REQUEST_URI']))." | BASIC"; ?></title>
 </head>
 <body>
+  <?php wp_head(); ?>
   <?php $menu_list = ['Home', 'Stuff', 'More Stuff', 'Lorem', 'Ipsum'];?>
   <div class="computer-nav">
     <ul>
